@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 function BtnTheme() {
   function getStoredTheme() {
     try {
-      const storedTheme = localStorage.getItem("theme")
+      const storedTheme = localStorage.getItem("theme-git-experiment")
       return storedTheme ? JSON.parse(storedTheme) : false
     } catch (error) {
       console.error("Error parsing theme from localStorage:", error)
